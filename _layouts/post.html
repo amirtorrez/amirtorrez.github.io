@@ -8,7 +8,7 @@ layout: default
     {{ content }}
   </div>
   <div class="date">
-    Escrito el: {{ page.date | date: "%e %m, %Y" }}
+    Escrito el {{ page.date | date: "%e %m, %Y" }} por Amir Torrez
   </div>
   {% include disqus.html %}
 </article>
