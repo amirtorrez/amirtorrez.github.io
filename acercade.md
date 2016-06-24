@@ -4,14 +4,9 @@ title: Acerca de
 permalink: /acercade/
 ---
 
-Some information about you!
+Soy originario de Tabasco, México, soy estudiante de la carrera Ingeniería en Sistemas Computacionales y mi especialidad es el desarrollo web.
 
-### More Information
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-[amirtorrez@openmailbox.org](mailto:amirtorrez@openmailbox.org)
-
+### Contáctame:
 
 <div class="container">
         <footer class="footer">
