@@ -8,6 +8,6 @@ Soy originario de Tabasco, México, soy estudiante de la carrera Ingeniería en 
 
 ### Contáctame:
 
-<div class="container footer">
+<div style="text-align:center;">
         {% include svg-icons.html %}
 </div>
