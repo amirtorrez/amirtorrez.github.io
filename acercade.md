@@ -12,10 +12,9 @@ A place to include any other types of information that you'd like to include abo
 ### Contact me
 [amirtorrez@openmailbox.org](mailto:amirtorrez@openmailbox.org)
 
-<div class="wrapper-footer">
-    <div class="container">
+
+<div class="container">
         <footer class="footer">
           {% include svg-icons.html %}
         </footer>
     </div>
-</div>
