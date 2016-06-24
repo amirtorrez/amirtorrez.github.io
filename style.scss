@@ -28,6 +28,7 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+  background-color: #eee;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -157,7 +158,6 @@ img {
 .masthead {
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
-  background-color: #eee;
 
   @include mobile {
     text-align: center;
