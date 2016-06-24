@@ -9,7 +9,7 @@ layout: default
       <div class="entry">
         {{ post.excerpt }}
       </div>
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Leer más</a> - <span style="font-size:13px;">Escrito el {{ post.date | date: "%e/%b %m %M/%Y" }}</span>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Leer más</a> - <span style="font-size:13px;">Escrito el {{ post.date | date: "%e/%m/%Y" }}</span>
     </article>
   {% endfor %}
 </div>
