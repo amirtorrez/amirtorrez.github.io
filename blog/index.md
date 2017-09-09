@@ -1,6 +1,6 @@
 ---
 layout: post-list
-title: Artículos
+title: Blog
 excerpt: "Lista de artículos"
 comments: false
 ---
