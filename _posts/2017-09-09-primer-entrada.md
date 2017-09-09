@@ -2,9 +2,13 @@
 layout: post
 title: "¡Primer Entrada!"
 date: 2017-09-09
-excerpt: "A ton of text to test readability."
+excerpt: "Este es mi primer post en el sitio, a lo largo del tiempo iré creando nuevos post como guías de algo para mí y el resto del mundo..."
 tags: [entrada, primer, presentación]
 feature: http://www.camionetica.com/wp-content/uploads/2013/03/Hola-Mundo-4ta-Migraci%C3%B3n-Camionetica.png
 ---
 
-Primer entrada Dx
+Este es mi primer post en el sitio, a lo largo del tiempo iré creando nuevos post como guías de algo para mí y el resto del mundo. Así me evitaré crear un repositorio por cada artículo que necesite xD.
+
+Mi información personal se encuentra en este mismo sitio, así que por cualquier asunto, puedes hacer uso de los medios de contacto.
+
+Hasta la próxima entrada ;)
