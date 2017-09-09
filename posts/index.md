@@ -1,6 +1,6 @@
 ---
 layout: post-list
 title: Artículos
-excerpt: "A List of Posts"
+excerpt: "Lista de artículos"
 comments: false
 ---
