@@ -5,7 +5,7 @@ description:        "Portal web personal"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/profile.jpg'
-background:         'assets/img/placeholder-big.jpg'
+background:         'assets/img/F15.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             es_MX
 url:                https://amirtorrez.github.io
