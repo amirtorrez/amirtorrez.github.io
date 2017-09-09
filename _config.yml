@@ -4,7 +4,7 @@ bio:                'Un tipo desarrollador'
 description:        "Portal web personal"
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
+logo:               'https://avatars0.githubusercontent.com/u/8184888'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             es_MX
