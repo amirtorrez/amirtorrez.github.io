@@ -5,7 +5,7 @@ tags: [about, sobre mi, acerca de]
 date: 2017-09-09
 ---
 
-<center>Jonathan Amir Torres Zapata <24/07/1994></center>
+<center>Jonathan Amir Torres Zapata <24/09/1994></center>
 
 >"Hay que dormir para morir soñando" - Yo
 
