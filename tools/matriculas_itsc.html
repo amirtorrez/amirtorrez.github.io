@@ -35,8 +35,8 @@
 					m = getUrlVars()["m"].toUpperCase();
 				}
 				
-				var img = hid('687474703a2f2f65787472616e65742e697473632e6564752e6d782f7373612f636f6e73756c74615f616c756d6e6f2f6d6f73747261725f666f746f2e7068703f6d6174726963756c613d') + m;
-				var pdf = hid('687474703a2f2f65787472616e65742e697473632e6564752e6d782f7373612f7265706f727465732f7573652f736f6c69636974756465732f736f6c5f696e736372697063696f6e2e7068703f6d6174726963756c613d') + m;
+				var img = 'http://extranet.itsc.edu.mx/ssa/consulta_alumno/mostrar_foto.php?matricula=' + m;
+				var pdf = 'http://extranet.itsc.edu.mx/ssa/reportes/use/solicitudes/sol_inscripcion.php?matricula=' + m;
 				var off;
 				
 				for(var i = 0; i < h.length; i++) {
