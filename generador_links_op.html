@@ -1,0 +1,52 @@
+<!Doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Bajar One Piece</title>
+		<meta name="author" content="Amir Torrez" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<script type="text/javascript">
+			function generateLinks() {
+				var a = document.getElementById("a").value;
+				var b = document.getElementById("b").value;
+				var links = document.getElementById("links").value = "";
+		
+				if(a !== "" && b !== "") {
+					for(var i = a; i <= b; i++){
+						document.getElementById("links").value += "http://s4.animeyt.tv/chumi.php?cd=1025&file=" + i + "\n";
+					}
+					((b-a)+1 > 0) ? document.getElementById("count").innerHTML = (b-a)+1 + " links generados" : null ;
+				}
+			}
+			function selectAll() {
+				document.getElementById("links").select();
+			}
+			function clearCount() {
+				document.getElementById("count").innerHTML = "";
+			}
+		</script>
+		<style type="text/css">
+			* {margin: 0 auto;text-align: center;font-family: Trebuchet MS, Arial;}
+			textarea {min-width: 400px;height: 200px;display: block;text-align: left;padding: 0.5%;}
+			textarea, input, h2, p, span {margin-top: 15px;}
+		</style>
+	</head>
+	<body>
+		<h2>Cap&iacute;tulos a descargar</h2>
+		<form method="post" autocomplete="none" action="javascript:generateLinks()">
+			<label>Desde: </label>
+			<input type="number" id="a" placeholder="1" value="" min="1" max="1000" required />&nbsp;&nbsp;
+			<label>A: </label>
+			<input type="number" id="b" placeholder="1000" value="" min="1" max="1000" required />
+			<input type="submit" value="Generar links" />
+		</form>
+		<form>
+			<textarea id="links"></textarea>
+			<input type="button" value="Seleccionar" onclick="selectAll()" />
+			<input type="reset" value="Limpiar" onclick="clearCount()" />
+		</form>
+		<p>
+			<span id="count"></span>
+		</p>
+	</body>
+</html>
