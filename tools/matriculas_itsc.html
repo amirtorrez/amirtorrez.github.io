@@ -1,0 +1,68 @@
+<!Doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Matriculas ITSC</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<style>body{text-align:center;}#body{margin: 0 auto;}</style>
+		<script type="text/javascript">
+		
+		var h = ["5445313330303331", "5445313330303330"];
+		
+			function hid(vl) {
+				var str = '';
+				for (var i = 0; i < vl.length; i += 2) {
+					var v = parseInt(vl.substr(i, 2), 16);
+					if (v) str += String.fromCharCode(v);
+				}
+				return str;
+			};
+			
+			function getUrlVars() {
+				var vars = {};
+				var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+				vars[key] = value;
+				});
+				return vars;
+			};
+			
+			window.onload = function view() {
+				var m = getUrlVars()["m"].toUpperCase();
+				var img = hid('687474703a2f2f65787472616e65742e697473632e6564752e6d782f7373612f636f6e73756c74615f616c756d6e6f2f6d6f73747261725f666f746f2e7068703f6d6174726963756c613d') + m;
+				var pdf = hid('687474703a2f2f65787472616e65742e697473632e6564752e6d782f7373612f7265706f727465732f7573652f736f6c69636974756465732f736f6c5f696e736372697063696f6e2e7068703f6d6174726963756c613d') + m;
+				var off;
+				
+				for(var i = 0; i < h.length; i++) {
+					if (m == hid(h[i])) {
+						off = 1;
+					};
+				};
+				
+				if(m != "" && off == 1) {
+					document.getElementById("sol_inc").style.display = "none";
+				};
+				
+				document.getElementById("img").src = img;
+				document.getElementById("pdf").href = pdf;
+			};
+		</script>
+	</head>
+	<body>
+		<div id="body">
+			<form method="get" autocomplete="off">
+				<input type="search" name="m" placeholder="Matr&iacute;cula..." style="text-transform:uppercase;" value="" autocomplete="off" />
+				<input type="submit" value="ver" />
+			</form>
+			<br>
+			<div id="foto">
+				<img src="http://extranet.itsc.edu.mx/ssa/consulta_alumno/mostrar_foto.php?matricula=" id="img" height="336" width="260">
+			</div>
+			<br>
+			<div id="sol_inc">
+				<a id="pdf" href="#" target="_blank">
+					<button>Solicitud de inscripci&oacute;n</button>
+				</a>
+			</div>
+		</div>
+	</body>
+</html>
