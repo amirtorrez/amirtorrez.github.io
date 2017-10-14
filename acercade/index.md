@@ -7,8 +7,6 @@ date: 2017-09-09
 
 <center>Jonathan Amir Torres Zapata <24/09/1994></center>
 
->"Hay que dormir para morir soñando" - Yo
-
 Soy originario de Tabasco, México. Actualmente soy estudiante de la carrera Ingeniería en Sistemas Computacionales y mi especialidad es el desarrollo web.
 
 He dado vueltas por varios proyectos, de los cuales Tantra Online fue uno de los primeros (si no el primero), fue aquí donde empecé a apasionarme inicialmente por el Desarrollo Web y la informática en general. Desde que mi papá compró la que sería mi primer computadora (allá por el 2006) empecé a apasionarme por aprender sobre informática y tecnologías de la información, empezando por areglar la misma computadora que yo mismo 'rompía' (xD) ayudándome de San Google antes de que mis padres se enterasen y me dieran una buena tunda (Xd).
