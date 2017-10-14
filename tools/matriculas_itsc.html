@@ -47,11 +47,11 @@
 
 				if(m.length < 1 || off == 1 || m == "undefined") {
 					document.getElementById("sol_inc").style.display = "none";
-				};				
+				};
 				
 				document.getElementById("img").src = img + m;
 				document.getElementById("pdf").href = pdf;
-				document.getElementById("m").value = m;
+				document.getElementById("m").value = (m != 'undefined') ? m : '';
 			};
 		</script>
 	</head>
