@@ -35,7 +35,7 @@
 					m = getUrlVars()["m"].toUpperCase();
 				}
 				
-				var img = 'http://extranet.itsc.edu.mx/ssa/consulta_alumno/mostrar_foto.php?matricula=' + m;
+				var img = 'http://extranet.itsc.edu.mx/ssa/consulta_alumno/mostrar_foto.php?matricula=';
 				var pdf = 'http://extranet.itsc.edu.mx/ssa/reportes/use/solicitudes/sol_inscripcion.php?matricula=' + m;
 				var off;
 				
@@ -49,7 +49,7 @@
 					document.getElementById("sol_inc").style.display = "none";
 				};				
 				
-				document.getElementById("img").src = img;
+				document.getElementById("img").src = img + m;
 				document.getElementById("pdf").href = pdf;
 				document.getElementById("m").value = m;
 			};
@@ -63,7 +63,7 @@
 			</form>
 			<br>
 			<div id="foto">
-				<img src="http://extranet.itsc.edu.mx/ssa/consulta_alumno/mostrar_foto.php?matricula=" id="img" height="336" width="260">
+				<img src="#" id="img" height="336" width="260">
 			</div>
 			<br>
 			<div id="sol_inc">
