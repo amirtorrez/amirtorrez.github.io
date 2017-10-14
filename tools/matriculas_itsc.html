@@ -21,13 +21,20 @@
 			function getUrlVars() {
 				var vars = {};
 				var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
-				vars[key] = value;
+					vars[key] = value;
 				});
 				return vars;
 			};
 			
 			window.onload = function view() {
-				var m = getUrlVars()["m"].toUpperCase();
+				var m;
+				
+				if(typeof(getUrlVars()["m"]) == 'undefined') {
+					m = 'undefined';
+				} else {
+					m = getUrlVars()["m"].toUpperCase();
+				}
+				
 				var img = hid('687474703a2f2f65787472616e65742e697473632e6564752e6d782f7373612f636f6e73756c74615f616c756d6e6f2f6d6f73747261725f666f746f2e7068703f6d6174726963756c613d') + m;
 				var pdf = hid('687474703a2f2f65787472616e65742e697473632e6564752e6d782f7373612f7265706f727465732f7573652f736f6c69636974756465732f736f6c5f696e736372697063696f6e2e7068703f6d6174726963756c613d') + m;
 				var off;
@@ -37,10 +44,10 @@
 						off = 1;
 					};
 				};
-				
-				if(m != "" && off == 1) {
+
+				if(m.length < 1 || off == 1 || m == "undefined") {
 					document.getElementById("sol_inc").style.display = "none";
-				};
+				};				
 				
 				document.getElementById("img").src = img;
 				document.getElementById("pdf").href = pdf;
@@ -49,7 +56,7 @@
 	</head>
 	<body>
 		<div id="body">
-			<form method="get" autocomplete="off">
+			<form method="GET" autocomplete="off">
 				<input type="search" name="m" placeholder="Matr&iacute;cula..." style="text-transform:uppercase;" value="" autocomplete="off" />
 				<input type="submit" value="ver" />
 			</form>
