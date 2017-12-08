@@ -33,7 +33,7 @@ De vez en cuando navegando por internet uno se encuentra algunas cosas, entre el
 	ZebiByte [ZiB] = 1024 ebibytes<br>  
 	YobiByte [YiB] = 1024 zebibytes<br>
 	<br>
-	<b>Prefijo del SI</b>  
+	<b>Prefijo del SI</b><br>
 	Kilobit [Kbit] = 1000 bits<br>  
 	Megabit [Mbit] = 1000 kilobits<br>  
 	Gigabit [Gbit] = 1000 megabits<br>  
