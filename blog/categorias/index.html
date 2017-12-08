@@ -5,7 +5,7 @@ description: "Un archivo de mensajes ordenados por categorías."
 comments: false
 ---
 
-{% capture site_category %}{% for categiry in site.category %}{{ category | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% capture site_category %}{% for category in site.category %}{{ category | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign category_list = site_category | split:',' | sort %}
 
 <ul class="entry-meta inline-list">
