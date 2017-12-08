@@ -7,10 +7,10 @@ tags: [almacenamiento, unidad, GB, GiB, bit]
 ---
 
 <div align="center">
-Bit 	= 	0 o 1  
-Byte 	= 	8 bits  
-  
-<b>Sistema Internacional Decimal</b>  
+Bit 	= 	0 o 1<br>
+Byte 	= 	8 bits<br>
+<br>
+<b>Sistema Internacional Decimal</b><br>
 KiloByte 	[kB] 	= 	1000 bytes  
 MegaByte 	[MB] 	= 	1000 kilobytes  
 GigaByte 	[GB] 	= 	1000 megabytes  
