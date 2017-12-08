@@ -2,6 +2,7 @@
 layout: post
 title: "Unidades de almacenamiento"
 date: 2017-12-07
+excerpt: "Prueba..."
 tags: [almacenamiento, unidad, GB, GiB, bit]
 ---
 
@@ -10,8 +11,8 @@ Bit 	= 	0 o 1.
 Byte 	= 	8 bits.
 
 <b>Sistema Internacional Decimal</b>
-KiloByte 	[kB] 	= 	1000 bytes.
-MegaByte 	[MB] 	= 	1000 kilobytes.
+KiloByte 	[kB] 	= 	1000 bytes<br>
+MegaByte 	[MB] 	= 	1000 kilobytes<br>
 GigaByte 	[GB] 	= 	1000 megabytes.
 TeraByte 	[TB] 	= 	1000 gigabytes.
 PetaByte 	[PB] 	= 	1000 terabytes.
@@ -35,7 +36,7 @@ Megabit 	[Mbit] 	= 	1000 kilobits.
 Gigabit 	[Gbit] 	= 	1000 megabits.
 Terabit 	[Tbit] 	= 	1000 gigabits.
 Petabit 	[Pbit] 	= 	1000 terabits.
-Exabit 	  [Ebit] 	= 	1000 petabits.
+Exabit 	    [Ebit] 	= 	1000 petabits.
 Zetabit 	[Zbit] 	= 	1000 exabits.
 Yottabit 	[Ybit] 	= 	1000 zetabits.
 
