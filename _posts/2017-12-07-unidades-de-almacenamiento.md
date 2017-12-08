@@ -50,3 +50,9 @@ Ebibit 	    [Eibit] 	= 	1024 pebibits
 Zebibit 	[Zibit] 	= 	1024 ebibits  
 Yobibit 	[Yibit] 	= 	1024 zebibits  
 </div>
+<br>
+
+<b>Más información</b>:
+https://physics.nist.gov/cuu/Units/binary.html
+https://physics.nist.gov/cuu/pdf/sp811.pdf#4.3
+http://mathworld.wolfram.com/Gigabyte.html
