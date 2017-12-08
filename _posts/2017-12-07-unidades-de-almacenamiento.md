@@ -2,16 +2,18 @@
 layout: post
 title: "Unidades de almacenamiento"
 date: 2017-12-07
-excerpt: "De vez en cuando navegando por internet uno se encuentra algunas cosas, entre ellas me he topado varias veces con esta cuestión acerca de las unidades de almacenamiento informáticos en las que se dice 1TB son 1024 GB, no sé realmente como empezó todo esto..."
+excerpt: "De vez en cuando navegando por internet uno se encuentra algunas cosas, en las que se dice 1TB son 1024 GB, no sé realmente como empezó todo esto..."
 tags: [almacenamiento, unidad, GB, GiB, bit]
 feature: http://www.pcactual.com/medio/2016/08/04/almacenamiento_960x486_323ba89d.jpg
 ---
 
-De vez en cuando navegando por internet uno se encuentra algunas cosas, entre ellas me he topado varias veces con esta cuestión acerca de las unidades de almacenamiento informáticos en las que se dice 1TB son 1024 GB, no sé realmente como empezó todo esto, pero dar unos minutos a investigar por internet pueden encontra la recopilación de unidades que aquí dejo, así como referencias/fuentes al final de ellas.
+De vez en cuando navegando por internet uno se encuentra algunas cosas, entre ellas me he topado varias veces con esta cuestión acerca de las unidades de almacenamiento informáticos en las que se dice 1TB son 1024 GB.
+
+No sé realmente como empezó todo esto, pero dar unos minutos a investigar por internet pueden encontra la recopilación de unidades que aquí dejo, así como referencias/fuentes al final de ellas.<br>
 
 <div align="center">
-	Bit 	= 	0 o 1<br>
-	Byte 	= 	8 bits<br>
+	Bit = 0 o 1<br>
+	Byte = 8 bits<br>
 	<br>
 	<b>Sistema Internacional Decimal</b><br>
 	KiloByte [kB] = 1000 bytes<br>
