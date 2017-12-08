@@ -26,8 +26,8 @@ layout: compress
                         {% if post.project == null %}
                     <ul>
                         <li class="wow" data-wow-duration=".5s">
-                            <a class="zoombtn" href="{{ site.url }}{{ post.url }}">({{ post.date | date : "%d/%m/%Y" }}) {{ post.title }}</a>
-                            <br><small>por <a>Amir Torrez</a> en {{ post.category }}, {{ post.date | date : "%d/%m/%Y" }}</small><br>
+                            <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                            <br><small>por <b>Amir Torrez</b> en {{ post.category }}, {{ post.date | date : "%d/%m/%Y" }}</small><br>
                             <p>{{ post.excerpt }}</p>
                             <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Leer más</a>
                         </li>
