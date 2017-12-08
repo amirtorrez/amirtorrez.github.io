@@ -2,7 +2,7 @@
 layout: post
 title: "Unidades de almacenamiento"
 date: 2017-12-07
-excerpt: "Prueba..."
+excerpt: "De vez en cuando navegando por internet uno se encuentra algunas cosas, entre ellas me he topado varias veces con esta cuestión acerca de las unidades de almacenamiento informáticos en las que se dice 1TB son 1024 GB, no sé realmente como empezó todo esto..."
 tags: [almacenamiento, unidad, GB, GiB, bit]
 feature: http://www.pcactual.com/medio/2016/08/04/almacenamiento_960x486_323ba89d.jpg
 ---
