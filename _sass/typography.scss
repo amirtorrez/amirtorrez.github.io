@@ -30,6 +30,11 @@
 	font-weight: bold;
 	margin-bottom: 3rem;
 }
+@media only screen and (max-width: 30em){
+    .post-title {
+        margin-top: -50px;
+    }
+}
 
 // headings
 h3.title a {
