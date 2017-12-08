@@ -56,6 +56,6 @@ Yobibit 	[Yibit] 	= 	1024 zebibits<br>
 <br>
 
 <b>Más información</b>:<br>
-<a href="https://physics.nist.gov/cuu/Units/binary.html">https://physics.nist.gov/cuu/Units/binary.html</a><br>
-<a href="https://physics.nist.gov/cuu/Units/binary.html">https://physics.nist.gov/cuu/pdf/sp811.pdf#4.3</a><br>
-<a href="https://physics.nist.gov/cuu/Units/binary.html">http://mathworld.wolfram.com/Gigabyte.html</a><br>
+https://physics.nist.gov/cuu/Units/binary.html<br>
+https://physics.nist.gov/cuu/pdf/sp811.pdf#4.3<br>
+http://mathworld.wolfram.com/Gigabyte.html<br>
