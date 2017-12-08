@@ -7,18 +7,18 @@ tags: [almacenamiento, unidad, GB, GiB, bit]
 ---
 
 <div align="center">
-Bit 	= 	0 o 1.
-Byte 	= 	8 bits.
+Bit 	= 	0 o 1<br>
+Byte 	= 	8 bits<br>
 
-<b>Sistema Internacional Decimal</b>
+<b>Sistema Internacional Decimal</b><br>
 KiloByte 	[kB] 	= 	1000 bytes<br>
 MegaByte 	[MB] 	= 	1000 kilobytes<br>
-GigaByte 	[GB] 	= 	1000 megabytes.
-TeraByte 	[TB] 	= 	1000 gigabytes.
-PetaByte 	[PB] 	= 	1000 terabytes.
-ExaByte 	[EB] 	= 	1000 petabytes.
-ZetaByte 	[ZB] 	= 	1000 exabytes.
-YottaByte [YB] 	= 	1000 zetabytes.
+GigaByte 	[GB] 	= 	1000 megabytes<br>
+TeraByte 	[TB] 	= 	1000 gigabytes  
+PetaByte 	[PB] 	= 	1000 terabytes  
+ExaByte 	[EB] 	= 	1000 petabytes  
+ZetaByte 	[ZB] 	= 	1000 exabytes  
+YottaByte   [YB] 	= 	1000 zetabytes  
 
 <b>ISO/IEC 80000-13 Binario</b>
 KibiByte 	[KiB] 	= 	1024 bytes.
