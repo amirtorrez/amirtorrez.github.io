@@ -6,10 +6,9 @@ comments: false
 ---
 
 <span class="entry-tags">
-{% for cat in page.category %}
-    <a href="{{ site.url }}/blog/etiquetas#{{ tag }}" title="Etiqueta: {{ tag }}" class="tag">
+{% for cat in site.category %}
+    <a href="{{ site.url }}/blog/etiquetas#{{ cat }}" title="Etiqueta: {{ cat }}" class="tag">
         <span class="term">{{ cat }}</span>
     </a>
-{% unless forloop.last %}{% endunless %}
 {% endfor %}
 </span>
