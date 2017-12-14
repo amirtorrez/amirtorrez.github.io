@@ -2,20 +2,24 @@
 layout: post
 title: "Linux-Libre en Debian o derivados"
 date: 2017-12-14
-excerpt: "..."
+excerpt: "En este post, paso a mostrar como es la instalación del kernel Linux-Libre en alguna distro Debian o derivada..."
 category: "GNU/Linux"
 tags: [Linux, Linux-Libre, Debian, Devuan, Ubuntu, Libre, GNU, GNU/Linux, GNU/Linux-Libre]
 feature: http://montoska.com/wp-content/uploads/2017/02/linux-libre-lnx.png
+comments: true
 ---
+En este post, paso a mostrar como es la instalación del kernel Linux-Libre en alguna distro Debian o derivada, ya sea Devuan, Ubuntu, Mint, etc. Si bien la misma Debian (y devuan) incluyen un kernel sin blobs, este es propio y no el kernel de la FSF, y, a diferencia de Debian/Devuan, Ubuntu y derivadas usan un kernel con blobs.
 
-lalala en desarrollo
+Como nota, Trisquel es una distro que se basa en Ubuntu, es decir es un Ubuntu sin blobs ni repositorios con software no libre, por lo que instalar Linux-Libre en Ubuntu no la convertirá en una distro totalmente libre, para ello, usa mejor la distro anteriormente mencionada.
+
+Ahora, a lo que venimos.
 
 Primero hay que añadir el repositorio de FSFLA:
-{% highlight bash %}
+~~~
     $ su
     # echo "#Linux-Libre" >> /etc/apt/sources.list
     # echo "deb http://linux-libre.fsfla.org/pub/linux-libre/freesh/ freesh main" >> /etc/apt/sources.list
-{% endhighlight %}
+~~~
 
 Seguido, descargar las claves GPG:
 ~~~
