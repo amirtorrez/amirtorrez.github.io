@@ -9,3 +9,9 @@ feature: http://www.pcactual.com/medio/2016/08/04/almacenamiento_960x486_323ba89
 ---
 
 lalala en desarrollo
+
+<pre class="highlight">
+    <code>
+        # apt update
+    </code>
+</pre>
