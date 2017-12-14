@@ -12,7 +12,7 @@ lalala en desarrollo
 
 <figure class="highlight">
     <pre class="highlight">
-        <code>
+        <code class="language-bash" data-lang="bash">
             # apt update
         </code>
     </pre>
