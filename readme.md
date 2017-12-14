@@ -1,1 +1,1 @@
-Sitio personal hecho con [Jekyll](https://jekyllrb.com/) + [Liquid](https://github.com/Shopify/liquid/wiki) usando el tema [Moon](http://taylantatli.github.io/Moon)
+Sitio personal hecho con [Jekyll](https://jekyllrb.com) + [Liquid](https://github.com/Shopify/liquid/wiki) usando el tema [Moon](http://taylantatli.github.io/Moon) y [GitHub Pages](https://pages.github.com) como alojamiento.
