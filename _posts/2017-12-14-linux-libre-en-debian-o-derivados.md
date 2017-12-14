@@ -11,11 +11,11 @@ feature: http://montoska.com/wp-content/uploads/2017/02/linux-libre-lnx.png
 lalala en desarrollo
 
 Primero hay que añadir el repositorio de FSFLA:
-~~~
+{% highlight bash %}
     $ su
     # echo "#Linux-Libre" >> /etc/apt/sources.list
     # echo "deb http://linux-libre.fsfla.org/pub/linux-libre/freesh/ freesh main" >> /etc/apt/sources.list
-~~~
+{% endhighlight %}
 
 Seguido, descargar las claves GPG:
 ~~~
