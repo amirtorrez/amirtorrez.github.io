@@ -63,3 +63,5 @@ No sé realmente como empezó todo esto, pero dar unos minutos a investigar por 
 https://physics.nist.gov/cuu/Units/binary.html<br>
 https://physics.nist.gov/cuu/pdf/sp811.pdf#4.3<br>
 http://mathworld.wolfram.com/Gigabyte.html<br>
+
+<em><b>Nota:</b> NIST (National Institute of Standards and Technology, Instituto Nacional de Estándares y Tecnología)</em>.
