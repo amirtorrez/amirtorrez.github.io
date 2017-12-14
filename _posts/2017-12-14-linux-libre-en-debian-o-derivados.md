@@ -14,7 +14,7 @@ Primero hay que añadir el repositorio de FSFLA:
 ~~~
     $ su
     # echo "#Linux-Libre" >> /etc/apt/sources.list
-    # echo "deb http://linux-libre.fsfla.org/pub/linux-libre/freesh/ freesh main" >>  >> /etc/apt/sources.list
+    # echo "deb http://linux-libre.fsfla.org/pub/linux-libre/freesh/ freesh main" >> /etc/apt/sources.list
 ~~~
 
 Seguido, descargar las claves GPG:
@@ -49,5 +49,5 @@ Y finalmente instalar Linux-Libre
 
 Una vez instalado solo queda reiniciar el sistema e iniciar con el nuevo kernel.
 
-<b>Más información:</b>
+<b>Más información:</b>  
 [https://jxself.org/linux-libre/](https://jxself.org/linux-libre/)
