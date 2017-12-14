@@ -6,6 +6,7 @@ excerpt: "De vez en cuando navegando por internet uno se encuentra algunas cosas
 category: "Informática"
 tags: [almacenamiento, unidad, GB, GiB, bit]
 feature: http://www.pcactual.com/medio/2016/08/04/almacenamiento_960x486_323ba89d.jpg
+comments: true
 ---
 
 De vez en cuando navegando por internet uno se encuentra algunas cosas, entre ellas me he topado varias veces con esta cuestión acerca de las unidades de almacenamiento informáticos en las que se dice 1TB son 1024 GB.
