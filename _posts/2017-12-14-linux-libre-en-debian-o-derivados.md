@@ -8,9 +8,9 @@ tags: [Linux, Linux-Libre, Debian, Devuan, Ubuntu, Libre, GNU, GNU/Linux, GNU/Li
 feature: http://montoska.com/wp-content/uploads/2017/02/linux-libre-lnx.png
 comments: true
 ---
-En este post, paso a mostrar como es la instalación del kernel Linux-Libre en alguna distro Debian o derivada, ya sea Devuan, Ubuntu, Mint, etc. Si bien la misma Debian (y devuan) incluyen un kernel sin blobs, este es propio y no el kernel de la FSF, y, a diferencia de Debian/Devuan, Ubuntu y derivadas usan un kernel con blobs.
+En este post, paso a mostrar como es la instalación del kernel [Linux-Libre](https://es.wikipedia.org/wiki/Linux-libre) en alguna distro Debian o derivada, ya sea [Devuan](https://es.wikipedia.org/wiki/Devuan), Ubuntu, Mint, etc. Si bien la misma Debian (y Devuan) incluyen un kernel sin blobs, este es propio y no el kernel de la FSF, y, a diferencia de Debian/Devuan, Ubuntu y derivadas usan un kernel con blobs.
 
-Como nota, Trisquel es una distro que se basa en Ubuntu, es decir es un Ubuntu sin blobs ni repositorios con software no libre, por lo que instalar Linux-Libre en Ubuntu no la convertirá en una distro totalmente libre, para ello, usa mejor la distro anteriormente mencionada.
+Como nota, [Trisquel](https://es.wikipedia.org/wiki/Trisquel_GNU/Linux) es una distro que se basa en Ubuntu, es decir es un Ubuntu sin blobs ni repositorios con software no libre, por lo que instalar Linux-Libre en Ubuntu no la convertirá en una distro totalmente libre, para ello, usa mejor la distro anteriormente mencionada.
 
 Ahora, a lo que venimos.
 
