@@ -36,7 +36,7 @@ layout: compress
                     
                 {% if page.last-activity %}
                     <div class="last-activity">
-                        Última actualización: {{ page.last-activity }}
+                        Última actualización: {{ page.last-activity | date : "%d/%m/%Y %H:%M" }}
                     </div>
                 {% endif %}
                 <div class="entry-meta">
