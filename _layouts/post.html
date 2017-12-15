@@ -33,12 +33,13 @@ layout: compress
                     </a>
                 </div>
                 {{ content }}
-                <div class="entry-meta">
+                    
                 {% if page.last-activity %}
                     <div class="last-activity">
                         Última actualización: {{ page.last-activity }}
                     </div>
                 {% endif %}
+                <div class="entry-meta">
                 {% include meta.html %}
                 </div>
             </div>
