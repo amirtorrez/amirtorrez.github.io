@@ -5,6 +5,7 @@ date: 2017-09-09
 excerpt: "Este es mi primer post en el sitio, a lo largo del tiempo iré creando nuevos post como guías de algo para mí y el resto del mundo..."
 tags: [entrada, primer, presentación]
 feature: http://www.camionetica.com/wp-content/uploads/2013/03/Hola-Mundo-4ta-Migraci%C3%B3n-Camionetica.png
+last-activity: "2017-12-14 18:07"
 comments: true
 ---
 
