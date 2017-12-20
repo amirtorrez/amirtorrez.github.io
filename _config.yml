@@ -9,7 +9,7 @@ background:         'assets/img/F15.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             es_MX
 url:                https://amirtorrez.github.io
-paginate:           5
+paginate:           2
 paginate_path:      "/blog/pag:num/"
 
 # Jekyll
