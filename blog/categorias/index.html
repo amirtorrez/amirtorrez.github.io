@@ -5,9 +5,6 @@ description: "Un archivo de mensajes ordenados por categorías."
 comments: false
 ---
 
-{% capture site_category %}{% for category in site.category %}{{ category }}{% endfor %}{% endcapture %}
-{% assign category_list = site_category %}
-
 {% for item in (0..site.category.size) %}{% unless forloop.last %}
   {% capture this_word %}{{ category_list[item] | strip_newlines }}{% endcapture %}
 	<article>
