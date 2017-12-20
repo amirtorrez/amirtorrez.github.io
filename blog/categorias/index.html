@@ -7,9 +7,9 @@ comments: false
 
 	<article>
 		<ul>
-    {% for post in site.category %}{% if post.title != null %}
+    {% for post in site.category[page.category] %}{% if post.title != null %}
       <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
     {% endif %}{% endfor %}
 		</ul>
 	</article>
-1a
+1b
