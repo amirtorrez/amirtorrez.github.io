@@ -5,8 +5,11 @@ description: "Un archivo de mensajes ordenados por categorías."
 comments: false
 ---
 
+{% capture site_category %}{% for cat in site.category %}{{ cat | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign cat_list = site_category | split:',' | sort %}
+
 {% for item in (0..site.category.size) %}{% unless forloop.last %}
-  {% capture this_word %}{{ category_list[item] | strip_newlines }}{% endcapture %}
+  {% capture this_word %}{{ cat_list[item] | strip_newlines }}{% endcapture %}
 	<article>
 	<h2 id="{{ this_word }}" class="tag-heading">{{ this_word }}</h2>
 		<ul>
