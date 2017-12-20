@@ -5,9 +5,7 @@ description: "Un archivo de mensajes ordenados por categorías."
 comments: false
 ---
 
-{% for post in page.category %}
-    <a href="{{ post.url | absolute_url }}">
-      {{ post.title }}
-    </a>
+{% for cat in post.category %}
+    <li class="entry-title"><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
-0b
+0c
