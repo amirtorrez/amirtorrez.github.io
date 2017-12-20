@@ -5,9 +5,9 @@ description: "Un archivo de mensajes ordenados por categorías."
 comments: false
 ---
 
-{% for post in site.category[page.category] %}
+{% for post in site.category %}
     <a href="{{ post.url | absolute_url }}">
       {{ post.title }}
     </a>
 {% endfor %}
-0
+0a
