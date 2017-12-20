@@ -10,6 +10,7 @@ tiled_bg:           false   # Set this true if you want to tile your background 
 locale:             es_MX
 url:                https://amirtorrez.github.io
 paginate:           5
+paginate_path:      "/blog/pag:num/"
 
 # Jekyll
 permalink:          /:title/
