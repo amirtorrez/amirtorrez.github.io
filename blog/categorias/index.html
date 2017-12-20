@@ -5,15 +5,11 @@ description: "Un archivo de mensajes ordenados por categorías."
 comments: false
 ---
 
-{% for item in (0..site.category.size) %}{% unless forloop.last %}
-  {% capture this_word %}{{ cat_list[item] | strip_newlines }}{% endcapture %}
 	<article>
-	<h2 id="{{ this_word }}" class="tag-heading">{{ this_word }}</h2>
 		<ul>
-    {% for post in site.category[this_word] %}{% if post.title != null %}
+    {% for post in site.category %}{% if post.title != null %}
       <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
     {% endif %}{% endfor %}
 		</ul>
-	</article><!-- /.hentry -->
-{% endunless %}{% endfor %}
-0d
+	</article>
+1a
