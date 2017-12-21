@@ -4,7 +4,6 @@ title: "Instalando Screenfetch"
 date: 2017-12-21
 tags: [screenfetch, Unix, GNU/Linux, Linux]
 feature: https://www.tecmint.com/wp-content/uploads/2014/07/screenFetch-02.jpeg
-last-activity: "2017-12-14 18:07"
 comments: true
 excerpt: "Screenfetch es un script que recopila información del sistema y la muestra de forma amigable al usuario."
 ---
