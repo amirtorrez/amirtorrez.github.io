@@ -52,3 +52,7 @@ Si se quiere desinstalar, al ser un script solo debe eliminarse el archivo
 ~~~
 # rmdir -r /usr/bin/screenfetch 
 ~~~
+  
+  
+**Más información**  
+<a href="https://github.com/KittyKatt/screenFetch/"><em>https://github.com/KittyKatt/screenFetch/</em></a>
