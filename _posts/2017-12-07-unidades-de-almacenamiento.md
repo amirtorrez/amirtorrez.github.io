@@ -2,6 +2,7 @@
 layout: post
 title: "Unidades de almacenamiento"
 date: 2017-12-07
+last-activity: "2018-01-22 18:43"
 excerpt: "De vez en cuando navegando por internet uno se encuentra algunas cosas, en las que se dice 1TB son 1024 GB, no sé realmente como empezó todo esto..."
 category: "Informática"
 tags: [almacenamiento, unidad, GB, GiB, bit]
@@ -63,5 +64,6 @@ No sé realmente como empezó todo esto, pero dar unos minutos a investigar por 
 https://physics.nist.gov/cuu/Units/binary.html<br>
 https://physics.nist.gov/cuu/pdf/sp811.pdf#4.3<br>
 http://mathworld.wolfram.com/Gigabyte.html<br>
+https://www.gnu.org/software/coreutils/manual/html_node/Block-size.html#index-LC_005fNUMERIC<br>
 
 <em><b>Nota:</b> NIST (National Institute of Standards and Technology, Instituto Nacional de Estándares y Tecnología)</em>.
