@@ -30,6 +30,9 @@ sass:
 # Comments
 disqus_shortname:   amirtorrez
 
+# PGP Public Key url
+pgp:                84FAF2C3.asc.txt
+
 # Social
 # if you don't have any of social below, comment the line.
 #google:
