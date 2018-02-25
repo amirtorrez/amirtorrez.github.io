@@ -58,7 +58,7 @@ Para hacer uso del archivo hosts debes copiarlo a una ruta específica dependien
 Para Android es necesario ser root, si no sabes como copiar el archivo hosts [revisa este script](https://github.com/amirtorrez/adaway_ffos/)
 
 
-**Más información**
+**Más información**<br>
 [https://es.wikipedia.org/wiki/Archivo_hosts](https://es.wikipedia.org/wiki/Archivo_hosts)<br>
 [https://adaway.org/](https://adaway.org/)<br>
 [https://github.com/gorhill/uBlock/](https://github.com/gorhill/uBlock/)<br>
