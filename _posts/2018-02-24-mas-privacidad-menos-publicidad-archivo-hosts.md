@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Más privacidad y menos publicidad con rastreadores"
+title: "Más privacidad y menos publicidad con archivo hosts"
 date: 2018-02-24
 tags: [Publicidad, Rastreadores, Hosts, Ads]
 feature: http://www.castle33.com/wp-content/uploads/2015/01/AdBlock-Blog-.jpg
