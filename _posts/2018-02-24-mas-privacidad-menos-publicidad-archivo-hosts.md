@@ -3,7 +3,7 @@ layout: post
 title: "Más privacidad y menos publicidad con archivo hosts"
 date: 2018-02-24
 tags: [Publicidad, Rastreadores, Hosts, Ads]
-feature: https://images-na.ssl-images-amazon.com/images/I/41O%2BW8JvvcL._SX300_QL70_.jpg
+feature: http://pre15.deviantart.net/728b/th/pre/f/2012/353/a/1/you_shall_not_pass_by_anna_yaina-d5oiuj8.jpg
 comments: true
 excerpt: Hoy en día es muy común encontrarse con sitios webs cargados de publicidad, excesiva en algunos casos, y por lo consiguiente también cargados con rastreadores...
 ---
