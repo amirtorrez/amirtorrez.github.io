@@ -1,4 +1,4 @@
----
+---a
 layout: post
 title: "Más privacidad y menos publicidad con rastreadores"
 date: 2018-02-24
@@ -6,7 +6,6 @@ tags: [Publicidad, Rastreadores, Hosts, Ads]
 feature: http://www.castle33.com/wp-content/uploads/2015/01/AdBlock-Blog-.jpg
 comments: true
 excerpt: Hoy en día es muy común encontrarse con sitios webs cargados de publicidad, excesiva en algunos casos, y por lo consiguiente también cargados con rastreadores...
-	
 ---
 
 Hoy en día es muy común encontrarse con sitios webs cargados de publicidad, excesiva en algunos casos, y por lo consiguiente también cargados con rastreadores, de tal modo que la navegación en estos sitios web se vuelve lenta y pesada debido a la cantidad de elementos en el sitio (visibles u ocultos) así como demasiadas peticiones a servidores externos.
