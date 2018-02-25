@@ -2,6 +2,7 @@
 layout: post
 title: "Más privacidad y menos publicidad con archivo hosts"
 date: 2018-02-24
+last-activity: 2018-02-24 01:30
 tags: [Publicidad, Rastreadores, Hosts, Ads]
 feature: https://images-na.ssl-images-amazon.com/images/I/61fh7-Shu%2BL._SL1436_.jpg
 comments: true
@@ -24,10 +25,12 @@ Es en ese entonces donde entran los archivos [hosts](https://es.wikipedia.org/wi
 
 Es entonces donde existen sitios web que proveen sus propias listas en un archivo hosts listo para usar, sin embargo hay software como Adaway para Android que permite fusionar varios archivos hosts para crear uno desde varias listas de tal forma que se consiga una lista más grande con filtros nuevos. Para otros sistemas no conozco alguna software que permita hacer esto, pues el fusionar manualmente los archivos no es una tarea fácil, y en el momento no me he destinado a crear script alguno para realizar tal tarea, es entonces donde entra el objetivo de este post, compartir mi archivo hosts que uso en mi smartphone Android generado desde Adaway desde varias listas.
 
-Puedes descargar el archivo hosts ya listo desde este enlace:
-<em>[https://github.com/amirtorrez/adaway_ffos/raw/master/file/adaway/hosts](https://github.com/amirtorrez/adaway_ffos/raw/master/file/adaway/hosts)</em>
+Puedes descargar el archivo hosts ya listo desde este enlace:<br>
+<em>[https://github.com/amirtorrez/adaway_ffos/raw/master/file/adaway/hosts](https://github.com/amirtorrez/adaway_ffos/raw/master/file/adaway/hosts) (generado por adaway)</em>
+<em>[https://github.com/amirtorrez/amirtorrez.github.io/raw/master/tools/hosts/hosts](https://github.com/amirtorrez/amirtorrez.github.io/raw/master/tools/hosts/hosts) (generado por mí)</em>
 
-Las fuentes hosts (las listas que se usaron para generar el archivo) son:
+
+Las fuentes hosts (las listas que se usaron para generar el archivo de adaway) son:
 ~~~
  http://hosts-file.net/download/hosts.txt
  http://someonewhocares.org/hosts/hosts
@@ -40,6 +43,8 @@ Las fuentes hosts (las listas que se usaron para generar el archivo) son:
  https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
  https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
 ~~~
+
+<b><em>NOTA: El archivo hosts generado por mí usa solo 2 fuentes (mvps y someonewhocares)</em></b>
 
 Para hacer uso del archivo hosts debes copiarlo a una ruta específica dependiendo el sistema, mayormente en esas rutas ya existe uno, por lo que hay que respaldarlo antes de copiar el archivo hosts nuevo. Las rutas donde se encuentra el archivo hosts son:
 
