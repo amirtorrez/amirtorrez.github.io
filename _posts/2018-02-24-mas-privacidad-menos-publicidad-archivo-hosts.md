@@ -27,7 +27,7 @@ Es en ese entonces donde entran los archivos [hosts](https://es.wikipedia.org/wi
 Es entonces donde existen sitios web que proveen sus propias listas en un archivo hosts listo para usar, sin embargo hay software como Adaway para Android que permite fusionar varios archivos hosts para crear uno desde varias listas de tal forma que se consiga una lista más grande con filtros nuevos. Para otros sistemas no conozco alguna software que permita hacer esto, pues el fusionar manualmente los archivos no es una tarea fácil, y en el momento no me he destinado a crear script alguno para realizar tal tarea, es entonces donde entra el objetivo de este post, compartir mi archivo hosts que uso en mi smartphone Android generado desde Adaway desde varias listas.
 
 Puedes descargar el archivo hosts ya listo desde este enlace:<br>
-<em><small>[https://github.com/amirtorrez/amirtorrez.github.io/raw/master/tools/hosts/hosts](https://github.com/amirtorrez/amirtorrez.github.io/raw/master/tools/hosts/hosts) (generado manualmente por mí)</small></em>
+<em><small>[https://github.com/amirtorrez/amirtorrez.github.io/raw/master/tools/hosts/hosts](https://github.com/amirtorrez/amirtorrez.github.io/raw/master/tools/hosts/hosts) (generado manualmente por mí) **[recomendado]**</small></em><br>
 <em><small>[https://github.com/amirtorrez/adaway_ffos/raw/master/file/adaway/hosts](https://github.com/amirtorrez/adaway_ffos/raw/master/file/adaway/hosts) (generado por adaway)</small></em>
 
 
