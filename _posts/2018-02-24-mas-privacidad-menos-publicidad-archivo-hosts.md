@@ -7,6 +7,7 @@ tags: [Publicidad, Rastreadores, Hosts, Ads]
 feature: https://images-na.ssl-images-amazon.com/images/I/61fh7-Shu%2BL._SL1436_.jpg
 comments: true
 excerpt: Hoy en día es muy común encontrarse con sitios webs cargados de publicidad, excesiva en algunos casos, y por lo consiguiente también cargados con rastreadores...
+last-activity: 2018-03-04 12:20
 ---
 
 Hoy en día es muy común encontrarse con sitios webs cargados de publicidad, excesiva en algunos casos, y por lo consiguiente también cargados con rastreadores, de tal modo que la navegación en estos sitios web se vuelve lenta y pesada debido a la cantidad de elementos en el sitio (visibles u ocultos) así como demasiadas peticiones a servidores externos.
@@ -26,8 +27,8 @@ Es en ese entonces donde entran los archivos [hosts](https://es.wikipedia.org/wi
 Es entonces donde existen sitios web que proveen sus propias listas en un archivo hosts listo para usar, sin embargo hay software como Adaway para Android que permite fusionar varios archivos hosts para crear uno desde varias listas de tal forma que se consiga una lista más grande con filtros nuevos. Para otros sistemas no conozco alguna software que permita hacer esto, pues el fusionar manualmente los archivos no es una tarea fácil, y en el momento no me he destinado a crear script alguno para realizar tal tarea, es entonces donde entra el objetivo de este post, compartir mi archivo hosts que uso en mi smartphone Android generado desde Adaway desde varias listas.
 
 Puedes descargar el archivo hosts ya listo desde este enlace:<br>
-<em>[https://github.com/amirtorrez/adaway_ffos/raw/master/file/adaway/hosts](https://github.com/amirtorrez/adaway_ffos/raw/master/file/adaway/hosts) (generado por adaway)</em>
-<em>[https://github.com/amirtorrez/amirtorrez.github.io/raw/master/tools/hosts/hosts](https://github.com/amirtorrez/amirtorrez.github.io/raw/master/tools/hosts/hosts) (generado por mí)</em>
+<em><small>[https://github.com/amirtorrez/amirtorrez.github.io/raw/master/tools/hosts/hosts](https://github.com/amirtorrez/amirtorrez.github.io/raw/master/tools/hosts/hosts) (generado manualmente por mí)</small></em>
+<em><small>[https://github.com/amirtorrez/adaway_ffos/raw/master/file/adaway/hosts](https://github.com/amirtorrez/adaway_ffos/raw/master/file/adaway/hosts) (generado por adaway)</small></em>
 
 
 Las fuentes hosts (las listas que se usaron para generar el archivo de adaway) son:
@@ -44,7 +45,7 @@ Las fuentes hosts (las listas que se usaron para generar el archivo de adaway) s
  https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
 ~~~
 
-<b><em>NOTA: El archivo hosts generado por mí usa solo 2 fuentes (mvps y someonewhocares)</em></b>
+<b><em>NOTA: El archivo hosts generado por mí usa solo las fuentes: [mvps, someonewhocares,p gl yoyo, adaway, malwaredomainlist, disconnect]</em></b>
 
 Para hacer uso del archivo hosts debes copiarlo a una ruta específica dependiendo el sistema, mayormente en esas rutas ya existe uno, por lo que hay que respaldarlo antes de copiar el archivo hosts nuevo. Las rutas donde se encuentra el archivo hosts son:
 
