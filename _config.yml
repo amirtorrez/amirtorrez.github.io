@@ -70,7 +70,8 @@ telegram:           amirtorrez
 #hackernews:        username
 
 # Gems
-gems:
+#gems:
+plugins:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap
