@@ -7,7 +7,7 @@ tags: [Publicidad, Rastreadores, Hosts, Ads]
 feature: https://images-na.ssl-images-amazon.com/images/I/61fh7-Shu%2BL._SL1436_.jpg
 comments: true
 excerpt: Hoy en día es muy común encontrarse con sitios webs cargados de publicidad, excesiva en algunos casos, y por lo consiguiente también cargados con rastreadores...
-last-activity: 2018-03-04 12:20
+last-activity: 2018-03-04 12:24
 ---
 
 Hoy en día es muy común encontrarse con sitios webs cargados de publicidad, excesiva en algunos casos, y por lo consiguiente también cargados con rastreadores, de tal modo que la navegación en estos sitios web se vuelve lenta y pesada debido a la cantidad de elementos en el sitio (visibles u ocultos) así como demasiadas peticiones a servidores externos.
@@ -45,7 +45,7 @@ Las fuentes hosts (las listas que se usaron para generar el archivo de adaway) s
  https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
 ~~~
 
-<b><em>NOTA: El archivo hosts generado por mí usa solo las fuentes: [mvps, someonewhocares,p gl yoyo, adaway, malwaredomainlist, disconnect]</em></b>
+<b><em>NOTA: El archivo hosts generado por mí usa solo las fuentes: [mvps, someonewhocares, pgl yoyo, adaway, malwaredomainlist, disconnect]</em></b>
 
 Para hacer uso del archivo hosts debes copiarlo a una ruta específica dependiendo el sistema, mayormente en esas rutas ya existe uno, por lo que hay que respaldarlo antes de copiar el archivo hosts nuevo. Las rutas donde se encuentra el archivo hosts son:
 
