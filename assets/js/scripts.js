@@ -63,7 +63,8 @@ self.addEventListener('install', function(event) {
         '/84FAF2C3.asc.txt',
         '/acercade',
         '/blog/etiquetas',
-        '/primer-entrada'
+        '/primer-entrada',
+        '/offline.html'
       ]);
     })
   );
