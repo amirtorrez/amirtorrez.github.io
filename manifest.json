@@ -4,8 +4,8 @@
   "lang": "es",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#fff",
-  "theme_color": "#fff",
+  "background_color": "#666",
+  "theme_color": "#ffffff",
   "description": "A personal web site.",
   "icons": [{
     "src": "assets/img/icon.png",
