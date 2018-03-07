@@ -1,0 +1,14 @@
+{
+  "name": "Amir Torrez!",
+  "short_name": "AmirTorrez!",
+  "lang": "es",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "A personal web site.",
+  "icons": [{
+    "src": "assets/img/icon.png",
+    "sizes": "159x156",
+    "type": "image/png"
+  }]
+}
