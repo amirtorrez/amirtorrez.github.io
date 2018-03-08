@@ -11,11 +11,10 @@ self.addEventListener('install', function(event) {
 });
 
 self.addEventListener('fetch', function(event) {
-	caches.match(event.request).then(function(response) {
-		console.log("online");
-		alert("online");
-	}).catch(function() {
-		alert("offline ");
-		return caches.match('/offline.html');
-	});
+  event.respondWith(
+    fetch(event.request).catch(function() {
+		console.log(event.request)
+      return caches.match(event.request);
+    })
+  );
 });
