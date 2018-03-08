@@ -59,7 +59,7 @@ $(document).ready(function() {
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/app.js', {scope: '/'})
   .then(function(reg) {
-    console.log('Registration succeeded. Scope is ' + reg.scope);
+    //console.log('Registration succeeded. Scope is ' + reg.scope);
     if(reg.installing) {
       console.log('Service worker installing');
     } else if(reg.waiting) {
