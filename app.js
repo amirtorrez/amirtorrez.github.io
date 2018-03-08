@@ -10,7 +10,7 @@ self.addEventListener('install', function(event) {
   );
 });
 
-self.addEventListener('fetch', function(event) {
+/*self.addEventListener('fetch', function(event) {
 	caches.match(event.request).then(function(response) {
 		return response || fetch(event.request).then(function(r) {
 			caches.open('v1').then(function(cache) {
@@ -21,4 +21,4 @@ self.addEventListener('fetch', function(event) {
 	}).catch(function() {
 		return caches.match('/offline.html');
 	});
-});
+});*/
