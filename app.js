@@ -4,7 +4,7 @@ self.addEventListener('install', function(event) {
       return cache.addAll([
         '/',
         '/84FAF2C3.asc.txt',
-        '/offline.html'
+        '/assets/offline.html'
       ]);
     })
   );
