@@ -15,7 +15,7 @@ self.addEventListener('fetch', function(event) {
 		console.log("online")
 		alert("online");
 	}).catch(function() {
-		return caches.match('/offline.html');
 		alert("offline");
+		return caches.match('/offline.html');
 	});
 });
