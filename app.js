@@ -10,13 +10,15 @@ self.addEventListener('install', function(event) {
   );
 });
 
-caches.match(event.request).then(function(response) {
-  return response || fetch(event.request).then(function(r) {
-    caches.open('v1').then(function(cache) {
-      cache.put(event.request, r);
-    });
-    return r.clone();
-  });
-}).catch(function() {
-  return caches.match('/offline.html');
+self.addEventListener('fetch', function(event) {
+	caches.match(event.request).then(function(response) {
+		return response || fetch(event.request).then(function(r) {
+			caches.open('v1').then(function(cache) {
+				cache.put(event.request, r);
+			});
+			return r.clone();
+		});
+	}).catch(function() {
+		return caches.match('/offline.html');
+	});
 });
