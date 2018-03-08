@@ -12,13 +12,10 @@ self.addEventListener('install', function(event) {
 
 self.addEventListener('fetch', function(event) {
 	caches.match(event.request).then(function(response) {
-		return response || fetch(event.request).then(function(r) {
-			caches.open('v1').then(function(cache) {
-				cache.put(event.request, r);
-			});
-			return r.clone();
-		});
+		console.log("online")
+		alert("online");
 	}).catch(function() {
-		return caches.match('/assets/offline.html');
+		return caches.match('/offline.html');
+		alert("offline");
 	});
 });
