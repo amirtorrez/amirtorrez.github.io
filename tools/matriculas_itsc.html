@@ -27,20 +27,19 @@
 
 				if(typeof(getUrlVars()["m"]) == 'undefined') {
 					m = 'undefined';
+					document.getElementById("m").value = '';
 				} else {
 					m = getUrlVars()["m"].toUpperCase();
+					document.getElementById("m").value = m;
 				};
 
 				var img = 'http://extranet.itsc.edu.mx/ssa/consulta_alumno/mostrar_foto.php?matricula=';
 				var pdf = 'http://extranet.itsc.edu.mx/ssa/reportes/use/solicitudes/sol_inscripcion.php?matricula=';
 
-				document.getElementById("m").value = (m != 'undefined') ? m : '';
-
 				var te;
 
 				if(m.indexOf('TE')){
 					m = m;
-					console.log(m);
 					te = '';
 				} else {
 					m = m.substr(2);
@@ -48,7 +47,14 @@
 				};
 
 				m = parseInt(m);
-				var c = (typeof(getUrlVars()["c"]) == 'undefined') ? 12 : parseInt(getUrlVars()["c"]);
+				var c;
+				if (typeof(getUrlVars()["c"]) == 'undefined') {
+					c = 12;
+				} else {
+					c = parseInt(getUrlVars()["c"]);
+					var div = document.getElementById('form');
+					div.innerHTML += '<input type="hidden" name="c" value="'+ c +'">';
+				};
 				var m2 = parseInt(m + c);
 				var m3 = parseInt(m - c);
 
@@ -70,7 +76,7 @@
 	</head>
 	<body>
 		<div id="body">
-			<form method="GET" autocomplete="off">
+			<form method="GET" autocomplete="off" id="form">
 				<a id="attr"><input type="button" value="<<" /></a>
 				<input type="search" id="m" name="m" placeholder="Matr&iacute;cula..." autocomplete="off" />
 				<input id="ver" type="submit" value="...." />
