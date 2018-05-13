@@ -4,20 +4,16 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>Matriculas ITSC</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <style>body{text-align:center;}#body{margin: 0 auto;}#m{text-transform:uppercase;}</style>
+        <style>
+			body{text-align:center;}
+			#body{margin: 0 auto;font-family:Verdana;}
+			#m{text-transform:uppercase;}
+			input{width:85px;text-align:center;}
+			fieldset{display:inline-block;}
+			img {margin-top:-40px;}
+			#ver{width:0px;padding:0px;border:solid #eee;}
+		</style>
 		<script type="text/javascript">
-		
-		var h = ["5445313330303331", "5445313330303330"];
-		
-			function hid(vl) {
-				var str = '';
-				for (var i = 0; i < vl.length; i += 2) {
-					var v = parseInt(vl.substr(i, 2), 16);
-					if (v) str += String.fromCharCode(v);
-				}
-				return str;
-			};
-			
 			function getUrlVars() {
 				var vars = {};
 				var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
@@ -25,52 +21,65 @@
 				});
 				return vars;
 			};
-			
+
 			window.onload = function view() {
 				var m;
-				
+
 				if(typeof(getUrlVars()["m"]) == 'undefined') {
 					m = 'undefined';
 				} else {
 					m = getUrlVars()["m"].toUpperCase();
-				}
-				
-				var img = 'http://extranet.itsc.edu.mx/ssa/consulta_alumno/mostrar_foto.php?matricula=';
-				var pdf = 'http://extranet.itsc.edu.mx/ssa/reportes/use/solicitudes/sol_inscripcion.php?matricula=' + m;
-				var off;
-				
-				for(var i = 0; i < h.length; i++) {
-					if (m == hid(h[i])) {
-						off = 1;
-					};
 				};
 
-				if(m.length < 1 || off == 1 || m == "undefined") {
-					document.getElementById("sol_inc").style.display = "none";
-				};
-				
-				document.getElementById("img").src = img + m;
-				document.getElementById("pdf").href = pdf;
+				var img = 'http://extranet.itsc.edu.mx/ssa/consulta_alumno/mostrar_foto.php?matricula=';
+				var pdf = 'http://extranet.itsc.edu.mx/ssa/reportes/use/solicitudes/sol_inscripcion.php?matricula=';
+
 				document.getElementById("m").value = (m != 'undefined') ? m : '';
+
+				var te;
+
+				if(m.indexOf('TE')){
+					m = m;
+					console.log(m);
+					te = '';
+				} else {
+					m = m.substr(2);
+					te = 'TE';
+				};
+
+				m = parseInt(m);
+				var c = (typeof(getUrlVars()["c"]) == 'undefined') ? 12 : parseInt(getUrlVars()["c"]);
+				var m2 = parseInt(m + c);
+				var m3 = parseInt(m - c);
+
+				document.getElementById("m2").value = (typeof(getUrlVars()["m"]) != 'undefined') ? 'TE' + m2 : '' ;
+				document.getElementById("sig").setAttribute("href", "?m=TE" + m2);
+				document.getElementById("attr").setAttribute("href", "?m=TE" + m3);
+
+				if(m > 0) {
+					for(var i = m; i < m2; i++){
+						document.getElementById("foto").innerHTML += '<fieldset><legend>'+ te + i +'</legend><br><a href="'+ pdf + te + i +'"><img src="'+ img + te + i + '" class="img" height="220" width="180"></a></fieldset>';
+					};
+
+				} else {
+					document.getElementById("foto").innerHTML = 'Ingresa una matricula';
+				};
+
 			};
 		</script>
 	</head>
 	<body>
 		<div id="body">
 			<form method="GET" autocomplete="off">
+				<a id="attr"><input type="button" value="<<" /></a>
 				<input type="search" id="m" name="m" placeholder="Matr&iacute;cula..." autocomplete="off" />
-				<input type="submit" value="ver" />
+				<input id="ver" type="submit" value="...." />
+				<input type="search" id="m2" name="m" autocomplete="off" disabled />
+				<a id="sig"><input type="button" value=">>"></a>
 			</form>
-			<br>
-			<div id="foto">
-				<img src="#" id="img" height="336" width="260">
-			</div>
-			<br>
-			<div id="sol_inc">
-				<a id="pdf" href="#" target="_blank">
-					<button>Solicitud de inscripci&oacute;n</button>
-				</a>
-			</div>
+			<br><br>
+			<div id="foto"></div>
+			<br><br><br>
 		</div>
 	</body>
 </html>
