@@ -27,8 +27,8 @@ Es en ese entonces donde entran los archivos [hosts](https://es.wikipedia.org/wi
 Es entonces donde existen sitios web que proveen sus propias listas en un archivo hosts listo para usar, sin embargo hay software como Adaway para Android que permite fusionar varios archivos hosts para crear uno desde varias listas de tal forma que se consiga una lista más grande con filtros nuevos. Para otros sistemas no conozco alguna software que permita hacer esto, pues el fusionar manualmente los archivos no es una tarea fácil, y en el momento no me he destinado a crear script alguno para realizar tal tarea, es entonces donde entra el objetivo de este post, compartir mi archivo hosts que uso en mi smartphone Android generado desde Adaway desde varias listas.
 
 Puedes descargar el archivo hosts ya listo desde este enlace:<br>
-<em><small>[https://github.com/amirtorrez/amirtorrez.github.io/raw/master/tools/hosts/hosts](https://github.com/amirtorrez/amirtorrez.github.io/raw/master/tools/hosts/hosts) (generado manualmente por mí) **[recomendado]**</small></em><br>
-<em><small>[https://github.com/amirtorrez/adaway_ffos/raw/master/file/adaway/hosts](https://github.com/amirtorrez/adaway_ffos/raw/master/file/adaway/hosts) (generado por adaway)</small></em>
+<em><small>[https://gitlab.com/amirtorrez/amirtorrez.gitlab.io/raw/master/tools/hosts/hosts](https://gitlab.com/amirtorrez/amirtorrez.gitlab.io/raw/master/tools/hosts/hosts) (generado manualmente por mí) **[recomendado]**</small></em><br>
+<em><small>[https://gitlab.com/amirtorrez/adaway_ffos/raw/master/file/adaway/hosts](https://gitlab.com/amirtorrez/adaway_ffos/raw/master/file/adaway/hosts) (generado por adaway)</small></em>
 
 
 Las fuentes hosts (las listas que se usaron para generar el archivo de adaway) son:
@@ -38,8 +38,8 @@ Las fuentes hosts (las listas que se usaron para generar el archivo de adaway) s
  http://winhelp2002.mvps.org/hosts.txt
  http://www.malwaredomainlist.com/hostslist/hosts.txt
  https://adaway.org/hosts.txt
- https://amirtorrez.github.io/tools/hosts/disconnect-list1.txt
- https://amirtorrez.github.io/tools/hosts/disconnect-list2.txt
+ https://amirtorrez.gitlab.io/tools/hosts/disconnect-list1.txt
+ https://amirtorrez.gitlab.io/tools/hosts/disconnect-list2.txt
  https://hosts-file.net/ad_servers.txt
  https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
  https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
@@ -61,7 +61,7 @@ Para hacer uso del archivo hosts debes copiarlo a una ruta específica dependien
 **Windows XP, 2003, Vista, 7, 8, 8.1, 10**
 > C:\Windows\System32\drivers\etc\hosts
 
-Para Android es necesario ser root, si no sabes como copiar el archivo hosts [revisa este script](https://github.com/amirtorrez/adaway_ffos/)
+Para Android es necesario ser root, si no sabes como copiar el archivo hosts [revisa este script](https://gitlab.com/amirtorrez/adaway_ffos/)
 
 
 **Más información**<br>
