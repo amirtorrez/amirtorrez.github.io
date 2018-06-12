@@ -11,6 +11,6 @@ comments: true
 
 Este es mi primer post en el sitio, a lo largo del tiempo iré creando nuevos post como guías de algo para mí y el resto del mundo. Así me evitaré crear un repositorio por cada artículo que necesite xD.
 
-Mi información personal se encuentra en este mismo sitio, así que por cualquier asunto, puedes hacer uso de los medios de contacto. También puedes consultar el código fuente de este sitio en mi [repositorio](https://github.com/amirtorrez/amirtorrez.github.io).
+Mi información personal se encuentra en este mismo sitio, así que por cualquier asunto, puedes hacer uso de los medios de contacto. También puedes consultar el código fuente de este sitio en mi [repositorio](https://gitlab.com/amirtorrez/amirtorrez.gitlab.io).
 
 Hasta la próxima entrada ;)
